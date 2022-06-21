@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="20dp"
+    app:cardBackgroundColor="@color/backgroundColor"
+    app:cardCornerRadius="15sp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_iqiyi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="爱奇艺"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/textColor"
+            app:cornerRadius="15dp"
+            app:icon="@drawable/ic_iqiyi"
+            app:iconGravity="textStart"
+            app:iconTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_tencent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="腾讯视频"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/textColor"
+            app:cornerRadius="15dp"
+            app:icon="@drawable/ic_tencent_tv"
+            app:iconGravity="textStart"
+            app:iconTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_youku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="优酷"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/textColor"
+            app:cornerRadius="15dp"
+            app:icon="@drawable/ic_youku"
+            app:iconGravity="textStart"
+            app:iconTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_mango"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="芒果TV"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/textColor"
+            app:cornerRadius="15dp"
+            app:icon="@drawable/ic_mango"
+            app:iconGravity="textStart"
+            app:iconTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText"
+            />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
